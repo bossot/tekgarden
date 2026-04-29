@@ -149,7 +149,7 @@ variable "template_id" {
 variable "template_url" {
   description = "URL de la imatge del sistema (ex: Debian cloud image)"
   type        = string
-  default     = "https://cloud-images.debian.org/debian/current/debian-12-genericcloud-amd64.qcow2"
+  default     = "https://cloud-images.debian.org/images/stable/debian-12-genericcloud-amd64.qcow2"
 }
 
 variable "template_checksum" {

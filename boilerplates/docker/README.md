@@ -19,14 +19,14 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: 172.20.0.0/24
+        - subnet: 10.0.0.0/24
   backend:
     name: [STACK_NAME]_backend
     driver: bridge
     internal: true
     ipam:
       config:
-        - subnet: 172.20.1.0/24
+        - subnet: 10.0.1.0/24
 
 volumes:
   postgres_data:
